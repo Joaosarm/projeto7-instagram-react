@@ -1,15 +1,15 @@
 import ReactDOM from 'react-dom';
+import Navbar from './Navbar';
+import FundoMobile from './FundoMobile';
 
-function Lista() {
+function App() {
     return (
-        <ul>
-            <li>Topico 1</li>
-            <li>Topico 2</li>
-            <li>Topico 3</li>
-        </ul>
+        <div>
+            <Navbar />
+            <FundoMobile />
+        </div>
     );
 }
 
-const lista = Lista();
-const elemento = document.querySelector(".root");
-ReactDOM.render(lista, elemento); // elemento do código de cima
+const root = document.querySelector(".root");
+ReactDOM.render(<App />, root); // elemento do código de cima

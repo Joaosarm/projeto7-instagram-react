@@ -157,6 +157,10 @@ body {
   margin-top: 18px;
 }
 
+.usuario img{
+  border-radius: 15px;
+}
+
 .post .topo {
   display: flex;
   justify-content: space-between;
@@ -181,6 +185,10 @@ body {
 }
 
 .post .conteudo img {
+  width: 100%;
+}
+
+.post .conteudo video {
   width: 100%;
 }
 
